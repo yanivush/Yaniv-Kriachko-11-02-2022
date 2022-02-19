@@ -108,7 +108,6 @@ return (
    <Typeahead 
       id="txtSearch"
       options={LocalieList}
-      allowNew={() => true}
       labelKey="City"
       onInputChange={(citySearch) => searchHandle(citySearch)}
       onChange={(citySearch) => searchHandle(citySearch)}
