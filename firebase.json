@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "herolo-weather-app-a7d0c",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
