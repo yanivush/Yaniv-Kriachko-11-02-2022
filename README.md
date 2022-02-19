@@ -14,6 +14,17 @@ Technologes used:
 4. css used FLEXbox
 
 --------------------------------------------------------------------------------------------------
+WHAT THIS APP HAS:
+
+1. Autocomplete when search for city
+2. current forecast of choosed city
+3. 5 days forecast
+4. add/remove favorite in weather page
+5. Favorite pages - list of favorites using localstorage of browser
+6. Favorite card with action of "remove favorite"
+7. all actions should self-refresh  after action fired
+8. using of icons(images) of accuweather api
+--------------------------------------------------------------------------------------------------
 
 Didn't implemented due luck of time:
 1. NO REDUX USED!! if you want to know why, ask me in person :)
