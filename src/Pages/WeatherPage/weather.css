@@ -82,5 +82,32 @@
   display: flex;
 }
 
+#weather-page .city-desc{
+ font-size: 18px;
+ font-weight: bold;
+}
+
+@media screen and (min-width: 700px) {
+#weather-page .five-days-cards{
+  width: 18rem;
+  height: 18rem;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+  #weather-page .fore-icon-area{
+    display: flex;
+  }
+
+  #weather-page .main-icon{
+    width: 125px;
+  }
+
+  #weather-page .five-days-cards{
+    height: 18rem;
+  }
+}
+
 
 

@@ -16,7 +16,7 @@ export const Weather5DaysForecast: React.FC<IProps> = props => {
 
     return(
         <>
-        <Card border="primary" style={{ width: '18rem', height: '18rem' }}>
+        <Card border="primary" className="five-days-cards">
             <Card.Header>{GetDayOfDate(props.data.Date)}&nbsp;|&nbsp;{FormatDate(props.data.Date)}</Card.Header>
             <Card.Body>
             <Card.Title></Card.Title>

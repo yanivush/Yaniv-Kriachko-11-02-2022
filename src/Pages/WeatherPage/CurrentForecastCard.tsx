@@ -75,17 +75,17 @@ export const CurrentForecast: React.FC<IProps> = props => {
             <Card.Title></Card.Title>
             <Card.Text style={{height: '60%'}}>
             <Container fluid>
-               <Row sm={4}>
+               <Row sm={12}>
                 <Col style={{"display": "flex"}}>
                   <div key="1" className='fore-icon-area'><img className='main-icon' src={loadIcon(props.data[0] && props.data[0].WeatherIcon)} alt='${props.data[0] && props.data[0].WeatherText}' /></div>
-                </Col>
-                <Col xs={6}>
-                    <div className='city-desc'>
+                  <div>
+                  <div className='city-desc'>
                         Now: {props.temperature}
                     </div>
                     <div className='city-desc'>
                          {props.data[0] && props.data[0].WeatherText}
                     </div>
+                  </div>
                 </Col>
                 </Row>
             </Container>
