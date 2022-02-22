@@ -34,8 +34,8 @@ Didn't implemented due luck of time:
 
 --------------------------------------------------------------------------------------------------
 How did I start develop it?
-1. First create simple local custom API service using C# WEB API which helped me to start with work data fetching (insted to work with limited accuweather api)
-    and then after I had created pages with some stuff includes fetch , I have switched to accuwaether api..
+1. First create simple local custom API service using C# WEB API which helped me to start with data fetching (insted to work with limited accuweather api)
+    and then after I had created pages with some stuff includes fetch , I have switched to accuwaether api for to continue to develop pages using accuweather api...
 3. Took time to work on funcional stuff
 4. Graphic and styles was last step in this project
 
